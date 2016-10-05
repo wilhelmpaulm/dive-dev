@@ -1,0 +1,24 @@
+{
+    "name": "wilhelmpaulm/dive-dev",
+    "description": "the super basic framework for n00bs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wilhelm martinez",
+            "email": "wilhelmpaulm@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "1.2",
+        "catfan/Medoo": "1.1.3",
+        "phpmailer/phpmailer": "~5.2",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controllers/",
+            "Model\\": "models/"
+        }
+    },
+    "minimum-stability": "dev"
+}
